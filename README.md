@@ -71,6 +71,22 @@ Start project
 node server.js
 ```
 
+Use some shortcut key that will be easy to edit for replit users
+
+**Find and Replace words**
+```
+Ctrl + H
+```
+
+**Find words**
+```
+Ctrl + F
+```
+
+**Find files, words**
+```
+Ctrl + Shift + F
+```
 
 Pease make sure you have enabled `Privileged Intents` on your Discord [developer portal](https://discordapp.com/developers/applications/). You can find these intents under the "Bot" section, and there are two ticks you have to switch on. For more information on Gateway Intents, check out [this](https://discordjs.guide/popular-topics/intents.html#the-intents-bit-field-wrapper) link.
 
@@ -86,4 +102,4 @@ You can launch the bot with `node server.js`
 
 ## Credits
 
-* **Romeo** - *helper* - [github](https://github.com/diwasatreya)
+* **Romeo** - *Owner* - [github](https://github.com/diwasatreya)
