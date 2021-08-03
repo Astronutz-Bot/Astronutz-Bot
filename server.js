@@ -9,7 +9,6 @@ const moment = require("moment");
 const { CanvasSenpai } = require("canvas-senpai")
 const canva = new CanvasSenpai();
 const { menu } = require("./shards");
-const { test } = require("./test")
 const snekfetch = require("snekfetch")
 const translate = require('google-translate-api');
 const { emotes , emoji} =require("./config.json")
@@ -185,26 +184,11 @@ client.user.setActivity(`?help | Vibing`, { type: "STREAMING",
 
 
 
-const { Player } = require("discord-music-player");
-//const prefixes = require("wokcommands/dist/models/prefixes");
-const player = new Player(client, {
-    leaveOnEmpty: false,
-});
 
-client.player = player;
-
-new Player(client, {
-    leaveOnEnd: false,
-    leaveOnStop: false,
-    leaveOnEmpty: false,
-    timeout: 10,
-    volume: 150,
-    quality: 'high',
-});
 const fs = require('fs')
 const Levels = require("discord-xp");
 
-Levels.setURL("mongodb+srv://Luca:Makro0807@cluster0.0fwfq.mongodb.net/ThatDiscordList?retryWrites=true&w=majority");//can be putten in .env too and then imported
+Levels.setURL("mongodb+srv://niki1290Q:niki1290Q@cluster0.gawkf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");//can be putten in .env too and then imported
 
  client.on('guildCreate', guild =>{
 
