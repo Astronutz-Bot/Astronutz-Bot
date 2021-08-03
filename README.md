@@ -33,7 +33,7 @@ If you liked this repository, feel free to leave a star ⭐ and follow me, it ac
 
 ## Features
 
-**183+** commands and **12** different categories!
+**183+** commands and **5** different categories!
 
   * **Moderation:** Easy to moderate server
   * **Fun:** Funs and games
@@ -59,6 +59,16 @@ https://repl.it/github/Astronutz-Bot/Astronutz-Bot
 Your `.env` file should be:
 ```
 TOKEN=BOT_TOKEN
+```
+
+Add this terminal, console or shell
+```
+npm install
+```
+
+Start project 
+```
+node server.js
 ```
 
 
